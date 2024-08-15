@@ -1,0 +1,14 @@
+################# Get
+GET http://127.0.0.1:4000/category/getall
+
+################### Get by id
+GET http://127.0.0.1:4000/category/getbyid/2
+
+################# Create
+POST http://127.0.0.1:4000/category/create
+Content-Type: application/json
+
+{
+    "categoryName": "Merner",
+    "description": "Game1234564"
+}
